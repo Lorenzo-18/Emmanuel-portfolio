@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!-- ================ basic page needs ================ -->
+    <meta charset="utf-8">
+    <title>Emmanuel Iheanyichukwu - Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- ================ mobile specific metas ================ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ================ CSS ================ -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ================ favicons ================ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+
+    <style>
+        .contact-bottom a{
+            font-size: 1.7rem;
+        }
+        .s-intro{
+            padding-bottom: 0px;
+        }
+        .s-about{
+            padding-top: 0px;
+        }
+        .s-works{
+            padding-top: 0px;
+        }
+        .s-contact{
+            padding-top: 0px;
+        }
+        .intro-button{
+            width: 30%;
+        }
+        .new-row{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .lg-new{
+            width: 100%;
+        }
+        .intro-below{
+            display: flex;
+            justify-content: space-between;
+        }
+        @media screen and (max-width: 800px) {
+            .intro-button{
+                width: 100%;
+            }
+            .intro-below{
+                display: inline-block;
+            }
+            .new-row{
+                display: block;
+            }
+        }    
+    </style>
+
+</head>
+
+<body id="top">
+
+    <!-- ================ # preloader ================ -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- ================ # page wrap ================ -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ================ ## site header ================ -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Emmanuel.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link">Emmanuel.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contact</a></li>
+                        <li><a href="#" class="smoothscroll">Resume</a></li> 
+                    </ul>
+                </nav>
+            </div>
+
+        </header> 
+        <!-- end s-header -->
+
+
+        <!-- ================ ## main content ================ -->
+        <main class="s-content">
+
+            <!-- ================ ### intro ================ -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello World
+                        </div>
+
+                        <h1 class="text-huge-title poppins-light-italic">
+                            I am Emmanuel, <br>
+                            a Full-stack Developer <br>
+                            & UI/UX Designer.
+                        </h1>
+
+                        <div class="intro-below">
+
+                        <div class="intro-button">
+                            <a href="./Emmanuel-resume.pdf" class="btn btn--medium u-fullwidth">Download Resume</a>
+                        </div>
+
+                        <ul class="intro-social2">
+    
+                            <li>
+                                <a href="https://x.com/Lorenzo_sama18" target="_blank" aria-label="Twitter">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775
+                                    1.014-.611 1.794-1.574 2.163-2.724
+                                    -.951.564-2.005.974-3.127 1.195
+                                    -.897-.957-2.178-1.555-3.594-1.555
+                                    -3.179 0-5.515 2.966-4.797 6.045
+                                    -4.091-.205-7.719-2.165-10.148-5.144
+                                    -1.29 2.213-.669 5.108 1.523 6.574
+                                    -.806-.026-1.566-.247-2.229-.616
+                                    -.054 2.281 1.581 4.415 3.949 4.89
+                                    -.693.188-1.452.232-2.224.084
+                                    .626 1.956 2.444 3.379 4.6 3.419
+                                    -2.07 1.623-4.678 2.348-7.29 2.04
+                                    2.179 1.397 4.768 2.212 7.548 2.212
+                                    9.142 0 14.307-7.721 13.995-14.646
+                                    .962-.695 1.797-1.562 2.457-2.549z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.behance.net/chikaIheanyichukwu" target="_blank" aria-label="Behance">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M7.5 11.5h3.7c.9 0 1.8.2 1.8 1.4
+                                    0 1.1-.7 1.6-1.7 1.6H7.5v-3zm0-4h3.3
+                                    c.9 0 1.6.3 1.6 1.3 0 1-.7 1.4-1.6 1.4H7.5V7.5z
+                                    M14.5 6h5V4h-5v2zm-4.2 3.8c.7 0 1.3-.1 1.9-.4
+                                    .6-.3 1-.7 1.4-1.2.3-.5.5-1.1.5-1.8
+                                    0-2.2-1.5-3.4-4.1-3.4H5v14h5.3
+                                    c2.9 0 4.7-1.4 4.7-4.1
+                                    0-2-1-3.2-2.8-3.6z
+                                    M18.5 9.5c-2.7 0-4.5 1.8-4.5 4.6
+                                    0 2.8 1.7 4.6 4.6 4.6
+                                    2.3 0 3.8-1.2 4.1-3h-2
+                                    c-.2.7-.8 1.2-1.9 1.2
+                                    -1.4 0-2.2-.9-2.2-2.3h6.2
+                                    c.1-3.2-1.6-5.1-4.3-5.1z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://instagram.com/lor_enz01218" target="_blank" aria-label="Instagram">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M7 2C4.243 2 2 4.243 2 7v10
+                                    c0 2.757 2.243 5 5 5h10
+                                    c2.757 0 5-2.243 5-5V7
+                                    c0-2.757-2.243-5-5-5H7zm10 2
+                                    c1.654 0 3 1.346 3 3v10
+                                    c0 1.654-1.346 3-3 3H7
+                                    c-1.654 0-3-1.346-3-3V7
+                                    c0-1.654 1.346-3 3-3h10zm-5 3
+                                    a5 5 0 100 10 5 5 0 000-10zm0 2
+                                    a3 3 0 110 6 3 3 0 010-6zm4.5-.5
+                                    a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/Lorenzo-18" target="_blank" aria-label="GitHub">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.477 2 2 6.484 2 12.02
+                                    c0 4.426 2.865 8.18 6.839 9.504
+                                    .5.092.682-.217.682-.483
+                                    0-.237-.009-.868-.014-1.703
+                                    -2.782.605-3.369-1.343-3.369-1.343
+                                    -.454-1.158-1.11-1.466-1.11-1.466
+                                    -.908-.62.069-.608.069-.608
+                                    1.004.071 1.532 1.032 1.532 1.032
+                                    .892 1.53 2.341 1.088 2.91.833
+                                    .091-.647.35-1.088.636-1.339
+                                    -2.22-.253-4.555-1.113-4.555-4.951
+                                    0-1.093.39-1.988 1.029-2.688
+                                    -.103-.253-.446-1.272.098-2.65
+                                    0 0 .84-.27 2.75 1.026
+                                    A9.564 9.564 0 0112 6.844
+                                    c.85.004 1.705.115 2.504.337
+                                    1.909-1.296 2.747-1.026 2.747-1.026
+                                    .546 1.378.202 2.397.1 2.65
+                                    .64.7 1.028 1.595 1.028 2.688
+                                    0 3.848-2.339 4.695-4.566 4.943
+                                    .359.31.678.92.678 1.855
+                                    0 1.338-.012 2.419-.012 2.747
+                                    0 .268.18.58.688.482
+                                    A10.019 10.019 0 0022 12.02
+                                    C22 6.484 17.523 2 12 2z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/chika-iheanyichukwu-3b0698312/" target="_blank" aria-label="LinkedIn">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6
+                                    1.12 6 0 4.88 0 3.5
+                                    0 2.12 1.12 1 2.5 1
+                                    3.87 1 4.98 2.12 4.98 3.5z
+                                    M0 8h5v16H0V8zm7.5 0h4.8v2.2h.1
+                                    c.7-1.3 2.4-2.7 4.9-2.7
+                                    5.2 0 6.2 3.4 6.2 7.8V24h-5v-7.8
+                                    c0-1.9 0-4.3-2.6-4.3
+                                    -2.6 0-3 2-3 4.1V24h-5V8z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        </div>
+
+                        <hr>
+                    </div>
+
+                    
+
+                    <ul class="intro-social">
+                        <li>chikaemmanuel1218@gmail.com </li>
+                    </ul>
+
+                </div> 
+                
+                <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> 
+            <!-- end s-intro -->
+
+
+            <!-- ================ ### about ================ -->
+            <section id="about" class="s-about target-section">
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/about.png" 
+                             srcset="images/about.png 1x, images/about.png 2x" alt="" class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About Me
+                            </h2>
+                            <p class="attention-getter poppins-light" data-animate-el>
+                                Hello! My name is Emmanuel Iheanyichukwu, a Full-stack Web Developer and a Web Designer. I'm a passionate web developer 
+                                dedicated to cafting clean, modern and user-focused digital experiences With a strong background in front-end 
+                                and back-end development, i turn ideas into functional visually engaging websites and web applications.
+                                My work blends creativity with problem-solving, i approach every project with attention to details, 
+                                ensuring that the final product is beautiful, responsive and efficient. Whether i'm designing a user flow, developing a feature, or improving performance. my goal is always the same - "Build something that works beautifully and delivers real value"
+                            </p>
+                            <a href="./Emmanuel-resume.pdf" class="btn btn--medium u-fullwidth" data-animate-el>Download Resume</a>
+
+                        </div>
+                    </div>
+                </div> 
+                <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>Full-stack Development</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+
+                    </div>
+                </div> 
+                <!-- end about-expertise -->
+
+
+                <div class="row about-timelines new-row" data-animate-block>
+
+                    <div class="column lg-6 tab-12 lg-new">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Front-End Skills
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">HTML5</h3>
+                                    <p class="timeline__timeframe">Front-end skillset</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">CSS3</h4>
+                                    <p class="timeline__timeframe">Front-end skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Tailwind CSS</h4>
+                                    <p class="timeline__timeframe">Front-end skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Bootstrap</h4>
+                                    <p class="timeline__timeframe">Front-End skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Javascript</h4>
+                                    <p class="timeline__timeframe">Front-End skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">API Integration (REST/JSON)</h4>
+                                    <p class="timeline__timeframe">Front-end skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">AJAX / Fetch API</h4>
+                                    <p class="timeline__timeframe">Front-end skillset</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- end timeline -->
+
+                    </div> 
+                    <!-- end column -->
+
+                    <div class="column lg-6 tab-12 lg-new">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Back-End Skills
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">PHP</h3>
+                                    <p class="timeline__timeframe">Back-end skillset</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Laravel</h4>
+                                    <p class="timeline__timeframe">Back-end skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">MySQL</h4>
+                                    <p class="timeline__timeframe">Back-end skillset</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- end timeline -->
+
+                    </div> 
+                    <!-- end column -->
+
+                    <div class="column lg-6 tab-12 lg-new">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Designer Skills
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Figma</h3>
+                                    <p class="timeline__timeframe">UI/UX skillset</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Adobe XD</h4>
+                                    <p class="timeline__timeframe">UI/UX skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Wireframing</h4>
+                                    <p class="timeline__timeframe">UI/UX skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Prototyping</h4>
+                                    <p class="timeline__timeframe">UI/UX skillset</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">UX Research</h4>
+                                    <p class="timeline__timeframe">UI/UX skillset</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- end timeline -->
+
+                    </div> 
+                    <!-- end column -->
+
+                </div> 
+                <!-- end about-timelines -->
+
+            </section> 
+            <!-- end s-about -->
+
+
+            <!-- ================ ### works ================ -->
+            <section id="works" class="s-works target-section">
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favorite projects I have done lately. Feel free to check them out.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/works/Fashion application.jpg"
+                                             srcset="images/works/Fashion application.jpg 1x, images/works/Fashion application.jpg 2x"  alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Product Design
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Fashionista App.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-02">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/works/Hospital site.jpg" 
+                                             srcset="images/works/Hospital site.jpg 1x, images/works/Hospital site.jpg 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Hospital Website.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-03">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/works/Food site.jpg" 
+                                             srcset="images/works/Food site.jpg 1x, images/works/Food site.jpg 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Chinese Restuarant Website
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-04">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/works/Sneaker Store App.jpg"
+                                             srcset="images/works/Sneaker Store App.jpg 1x, images/works/Sneaker Store App.jpg 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Product Design
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Footers Store.
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-05">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/works/School site.jpg" 
+                                             srcset="images/works/School site.jpg 1x, images/works/School site.jpg 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Tobbi Schools
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/works/Agency site.jpg" 
+                                             srcset="images/works/Agency site.jpg 1x, images/works/Agency site.jpg 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Atelier code
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- ================ Modal Templates Popup ================ -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="images/works/Fashion application.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Fashionista App</h5>
+                                <p>Complete UI/UX Design for the app of the fashion brand "fashionista".</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Product Design</li>
+                                </ul>
+                            </div>
+                
+                            <a href="#" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup">
+                            <img src="images/works/Hospital site.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Hospital Website</h5>
+                                <p>A complete front-end web developed code for a hospital official website</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="#" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-03" hidden>
+                        <div class="modal-popup">
+                            <img src="images/works/Food site.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Chinese Restuarant Website</h5>
+                                <p>A completely done full-stack website for a restuarant with online food odering system.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="#" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup">
+                            <img src="images/works/Sneaker Store App.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Footers Store</h5>
+                                <p>UI/UX Design for a store application</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Product Design</li>
+                                </ul>
+                            </div>
+                
+                            <a href="#" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-05" hidden>
+                        <div class="modal-popup">
+
+                            <img src="images/works/School site.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Tobbi Schools</h5>
+                                <p>Complete full-stack developed school website </p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="#" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="images/works/Agency site.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Atelier code</h5>
+                                <p>Front-end developedsite for atelier code</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="#" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+
+                <div class="row testimonials">
+                    <div class="column lg-12" data-animate-block>
+        
+                        <div class="swiper-container testimonial-slider" data-animate-el>
+        
+                            <div class="swiper-wrapper">
+
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Tim Cook</strong>
+                                            <span>CEO, Apple</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                    A spectacular young developer. Emmanuel works effeciently in his development projects
+                                    ensuring your website and web apps perform to it's upmost best, both making it responsive and beautiful 
+                                    to maintaining quality standards.
+                                    </p>
+                                </div> 
+                                <!-- end testimonial-slider__slide -->
+                
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Sundar Pichai</strong>
+                                            <span>CEO, Google</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                    Emmanuel is a talented product designer (UI/UX Designer), everything starting from making user research 
+                                    to drafting out the user flow and the wireframe of the product and finally the output being a spectacular and 
+                                    wonderful product both beautiful and responsive.
+                                    </p>
+                                </div> 
+                                <!-- end testimonial-slider__slide -->
+                
+                                <div class="testimonial-slider__slide swiper-slide">
+                                    <div class="testimonial-slider__author">
+                                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
+                                        <cite class="testimonial-slider__cite">
+                                            <strong>Satya Nadella</strong>
+                                            <span>CEO, Microsoft</span>
+                                        </cite>
+                                    </div>
+                                    <p>
+                                    He is a capable full-stack developer skilled in both designing and developing 
+                                    websites and web applications to suit your business needs 
+                                    </p>
+                                </div> 
+                                <!-- end testimonial-slider__slide --> 
+            
+                            </div> <!-- end swiper-wrapper -->
+        
+                            <div class="swiper-pagination"></div>
+        
+                        </div> <!-- end swiper-container -->
+        
+                    </div> <!-- end column -->
+                </div> <!-- end row testimonials -->
+
+            </section> 
+            <!-- end s-works -->
+
+
+            <!-- ================ ### contact ================ -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I love to hear from you.
+                            Whether you have a question or just 
+                            want to chat about Programming, tech & designs — shoot me a message.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:chikaemmanuel1218@gmail.com" class="mailtoui">chikaemmanuel1218@gmail.com</a> <br>
+                            <a href="tel:+1975432345">+234 903 590 6231</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="intro-social3">
+    
+                            <li>
+                                <a href="https://x.com/Lorenzo_sama18" target="_blank" aria-label="Twitter">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775
+                                    1.014-.611 1.794-1.574 2.163-2.724
+                                    -.951.564-2.005.974-3.127 1.195
+                                    -.897-.957-2.178-1.555-3.594-1.555
+                                    -3.179 0-5.515 2.966-4.797 6.045
+                                    -4.091-.205-7.719-2.165-10.148-5.144
+                                    -1.29 2.213-.669 5.108 1.523 6.574
+                                    -.806-.026-1.566-.247-2.229-.616
+                                    -.054 2.281 1.581 4.415 3.949 4.89
+                                    -.693.188-1.452.232-2.224.084
+                                    .626 1.956 2.444 3.379 4.6 3.419
+                                    -2.07 1.623-4.678 2.348-7.29 2.04
+                                    2.179 1.397 4.768 2.212 7.548 2.212
+                                    9.142 0 14.307-7.721 13.995-14.646
+                                    .962-.695 1.797-1.562 2.457-2.549z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.behance.net/chikaIheanyichukwu" target="_blank" aria-label="Behance">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M7.5 11.5h3.7c.9 0 1.8.2 1.8 1.4
+                                    0 1.1-.7 1.6-1.7 1.6H7.5v-3zm0-4h3.3
+                                    c.9 0 1.6.3 1.6 1.3 0 1-.7 1.4-1.6 1.4H7.5V7.5z
+                                    M14.5 6h5V4h-5v2zm-4.2 3.8c.7 0 1.3-.1 1.9-.4
+                                    .6-.3 1-.7 1.4-1.2.3-.5.5-1.1.5-1.8
+                                    0-2.2-1.5-3.4-4.1-3.4H5v14h5.3
+                                    c2.9 0 4.7-1.4 4.7-4.1
+                                    0-2-1-3.2-2.8-3.6z
+                                    M18.5 9.5c-2.7 0-4.5 1.8-4.5 4.6
+                                    0 2.8 1.7 4.6 4.6 4.6
+                                    2.3 0 3.8-1.2 4.1-3h-2
+                                    c-.2.7-.8 1.2-1.9 1.2
+                                    -1.4 0-2.2-.9-2.2-2.3h6.2
+                                    c.1-3.2-1.6-5.1-4.3-5.1z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://instagram.com/lor_enz01218" target="_blank" aria-label="Instagram">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M7 2C4.243 2 2 4.243 2 7v10
+                                    c0 2.757 2.243 5 5 5h10
+                                    c2.757 0 5-2.243 5-5V7
+                                    c0-2.757-2.243-5-5-5H7zm10 2
+                                    c1.654 0 3 1.346 3 3v10
+                                    c0 1.654-1.346 3-3 3H7
+                                    c-1.654 0-3-1.346-3-3V7
+                                    c0-1.654 1.346-3 3-3h10zm-5 3
+                                    a5 5 0 100 10 5 5 0 000-10zm0 2
+                                    a3 3 0 110 6 3 3 0 010-6zm4.5-.5
+                                    a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/Lorenzo-18" target="_blank" aria-label="GitHub">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.477 2 2 6.484 2 12.02
+                                    c0 4.426 2.865 8.18 6.839 9.504
+                                    .5.092.682-.217.682-.483
+                                    0-.237-.009-.868-.014-1.703
+                                    -2.782.605-3.369-1.343-3.369-1.343
+                                    -.454-1.158-1.11-1.466-1.11-1.466
+                                    -.908-.62.069-.608.069-.608
+                                    1.004.071 1.532 1.032 1.532 1.032
+                                    .892 1.53 2.341 1.088 2.91.833
+                                    .091-.647.35-1.088.636-1.339
+                                    -2.22-.253-4.555-1.113-4.555-4.951
+                                    0-1.093.39-1.988 1.029-2.688
+                                    -.103-.253-.446-1.272.098-2.65
+                                    0 0 .84-.27 2.75 1.026
+                                    A9.564 9.564 0 0112 6.844
+                                    c.85.004 1.705.115 2.504.337
+                                    1.909-1.296 2.747-1.026 2.747-1.026
+                                    .546 1.378.202 2.397.1 2.65
+                                    .64.7 1.028 1.595 1.028 2.688
+                                    0 3.848-2.339 4.695-4.566 4.943
+                                    .359.31.678.92.678 1.855
+                                    0 1.338-.012 2.419-.012 2.747
+                                    0 .268.18.58.688.482
+                                    A10.019 10.019 0 0022 12.02
+                                    C22 6.484 17.523 2 12 2z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/chika-iheanyichukwu-3b0698312/" target="_blank" aria-label="LinkedIn">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6
+                                    1.12 6 0 4.88 0 3.5
+                                    0 2.12 1.12 1 2.5 1
+                                    3.87 1 4.98 2.12 4.98 3.5z
+                                    M0 8h5v16H0V8zm7.5 0h4.8v2.2h.1
+                                    c.7-1.3 2.4-2.7 4.9-2.7
+                                    5.2 0 6.2 3.4 6.2 7.8V24h-5v-7.8
+                                    c0-1.9 0-4.3-2.6-4.3
+                                    -2.6 0-3 2-3 4.1V24h-5V8z"/>
+                                </svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <h3 class="text-pretitle">Send me a mail</h3>
+                        <a href="mailto:chikaemmanuel1218@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> 
+                <!-- end contact-bottom -->
+
+            </section> 
+            <!-- end contact -->
+
+        </main> 
+        <!-- end s-content -->
+
+
+        <!-- ================ ## footer ================ -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>All rights reserved © Copyright Emmanuel 2026</span> 
+                    <span>Design and Developed by me.</span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> 
+        <!-- end s-footer -->
+
+    </div> 
+    <!-- end -s-pagewrap -->
+
+
+    <!-- ================ Java Script ================ -->
+    <script src="js/plugins.js"></script>
+    <script src="js/mains.js"></script>
+
+</body>
+</html>
